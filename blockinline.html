@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <!--網頁標題，設定瀏覽器tab標題-->
+    <title>Demo 6: 區塊、行內元素</title>
+    <style>
+      .block-1 {
+        background: red;
+      }
+      .block-2 {
+        border: 10px dashed #000;
+        background: purple;
+        color: #fff;
+      }
+      .block-3 {
+        background: #d94600;
+      }
+      .inline-1 {
+        background: blue;
+      }
+      .inline-2 {
+        background: yellow;
+        color: #000;
+      }
+    </style>
+  </head>
+  <body>
+    <!--我是註解: 這邊放你想要呈現在網頁的html code-->
+    <!--區塊元素: h1~h6、p、div、html5語意元素...-->
+    <!--盡可能占滿整個版面、會另起一行呈現-->
+    <div class="block-1">div元素(區塊)</div>
+    <!--行內元素: b、i、s、span-->
+    <!--常用於段落裡面、無法設定寬高，由內容決定-->
+    <span class="inline-1">span元素(行內)</span>
+    <div class="block-2">
+      div元素(區塊2)
+      <span class="inline-2">我是行內元素</span>
+      <div class="block-3">另一個區塊元素</div>
+    </div>
+  </body>
+</html>
